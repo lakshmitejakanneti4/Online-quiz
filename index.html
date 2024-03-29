@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Online Quiz</title>
+<style>
+div{
+border:3px solid green;
+}
+
+h2{
+text-align:center;
+color:red;
+}
+h3{
+text-align:center;
+color:red;
+font-family:cg omega;
+font-size:30px;
+}
+.flex-container{
+background-color:orange;
+display:flex;
+padding:20px;
+flex-direction:row;
+}
+.item{
+width:170px;
+background-color:pink;
+margin:10px;
+padding:10px;
+font-size:50px;
+}
+h1{
+text-align:center;
+color:red;
+font-family:cg omega;
+font-size:45px;
+}
+p{
+font-size:30px;
+text-align:center;
+color:blue;
+}
+.item1{grid-area:header;}
+.item2{grid-area:navigation;}
+.item6{grid-area:footer;}
+.grid-container{
+display:grid;
+grid-template-areas:
+'header header header'
+'navigation navigation navigation'
+'navigation navigation navigation'
+'footer footer footer';
+gap:10px;
+background-color:pink;
+padding:10px;
+}
+.item1{
+background-color:skyblue;
+text-align:center;
+padding:20px;
+font-size:10px;
+}
+.item2{
+background-color:lightgreen;
+text-align:center;
+padding:30px;
+font-size:100px;
+}
+
+
+.item6{
+background-color:pink;
+text-align:center;
+padding:20px;
+font-size:50px;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+<div class="item1"><h1>ONLINE QUIZ APPLICATION</h1>
+<p><i>Select the subjects given below</i></p>
+<p><i>And perform quiz and check your result</i></p>
+</div>
+<div class="item2">
+<div class="flex-container">
+<div class="item"><a href="Quiz.html">Java</a></div>
+<div class="item"><a href="Quiz.html">DBMS</a></div>
+<div class="item"><a href="Quiz.html">OS</a></div>
+<div class="item"><a href="Quiz.html">SE</a></div>
+<div class="item"><a href="Quiz.html">COA</a></div>
+<div class="item"><a href="Quiz.html">CI</a></div>
+</div>
+
+</div>
+<br>
+<br>
+
+<div class="item6">
+<p>Wellcome to Online Quiz Application</p>
+</div>
+</div>
+</body>
+</html>
